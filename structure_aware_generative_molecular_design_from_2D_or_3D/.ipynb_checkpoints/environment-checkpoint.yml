@@ -1,0 +1,9 @@
+name: 2Dor3D
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - molscore
+    - prolif
+    - tqdm
+    - jupyterlab
