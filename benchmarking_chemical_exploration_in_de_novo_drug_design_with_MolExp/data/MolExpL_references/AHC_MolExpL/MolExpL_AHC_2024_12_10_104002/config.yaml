@@ -1,0 +1,29 @@
+agent_name: AHC
+custom_model_factory: null
+custom_task: null
+eps: 1.0e-08
+experience_replay: true
+experiment_name: MolExpL
+log_dir: results/AHC_MolExpL
+logger_backend: null
+lr: 0.0001
+model: gru_chembl34
+molscore_kwargs:
+  include: []
+molscore_mode: benchmark
+molscore_task: MolExpL
+num_envs: 128
+prompt: null
+replay_batch_size: 10
+replay_buffer_size: 100
+save_dir: results/AHC_MolExpL/MolExpL_AHC_2024_12_10_104002
+seed:
+- 101
+- 102
+- 103
+- 104
+- 105
+sigma: 60
+topk: 0.5
+total_smiles: 10000
+weight_decay: 0.0

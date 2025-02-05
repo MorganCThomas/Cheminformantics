@@ -1,0 +1,16 @@
+agent_name: SCREEN
+custom_task: null
+dataset_path: /workspace1/Priors/ChEMBL34/chembl34_filtered.smi.gz
+experiment_name: MolExpL
+log_dir: results/SCREEN_MolExpL
+logger_backend: null
+molscore_mode: benchmark
+molscore_task: MolExpL
+save_dir: results/SCREEN_MolExpL/MolExpL_SCREEN_2025_01_07_124938
+seed:
+- 101
+- 102
+- 103
+- 104
+- 105
+total_smiles: 10000

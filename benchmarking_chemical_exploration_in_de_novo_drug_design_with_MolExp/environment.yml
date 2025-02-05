@@ -1,0 +1,11 @@
+name: MolExp
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - pandas
+    - numpy
+    - rdkit
+    - seaborn
+    - tqdm
+    - jupyterlab

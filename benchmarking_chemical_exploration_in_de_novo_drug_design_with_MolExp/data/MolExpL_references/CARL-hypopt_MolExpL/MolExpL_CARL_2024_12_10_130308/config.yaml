@@ -1,0 +1,28 @@
+agent_name: CARL
+alpha: 3
+baseline: null
+custom_task: null
+entropy_coef: 0.0
+eps: 1.0e-08
+experiment_name: MolExpL
+likely_penalty_coef: 0.0
+log_dir: results/CARL-hypopt_MolExpL
+logger_backend: null
+lr: 0.0001
+lr_annealing: false
+model: gru_chembl34
+molscore_kwargs:
+  include: []
+molscore_mode: benchmark
+molscore_task: MolExpL
+num_envs: 32
+prompt: null
+replay_batch_size: 50
+replay_buffer_size: 100
+replay_sampler: prioritized
+save_dir: results/CARL-hypopt_MolExpL/MolExpL_CARL_2024_12_10_130308
+seed: 103
+sigma: 0.001
+topk: 0.5
+total_smiles: 10000
+weight_decay: 0.0
