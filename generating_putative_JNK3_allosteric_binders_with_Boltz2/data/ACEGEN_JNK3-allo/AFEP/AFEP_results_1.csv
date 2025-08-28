@@ -1,0 +1,20 @@
+Affinity unit, # ,Ligand,Quality,Pred. Binding (pKi),Exp. Binding (pKi),Structure,pKi,bin
+,1,p8_sel4_seed1_288_27_model_0_prep_split_ligand2,-1,7.3 ± 0.07,,Clc1ccc2c(c1)-c1c[nH]c3c1[C@@H](C2)N(C1CCN(CCN2[C@H]4CCNN2CC4)CC1)CC3,7.3,p8
+,2,p8_sel3_seed0_210_26_model_0_prep_split_ligand2,0,7.1 ± 0.07,,CN1CCc2cc(Cl)c(Cl)c(N3CCN(c4cc(N)c(C#N)c(N)c4C#N)CC3)c2C1,7.1,p8
+,3,p8_sel2_seed1_290_22_model_0_prep_split_ligand2,0,6.8 ± 0.10,,NCCN1CCC[C@H]1CN1CCC(N2CCc3[nH]cc4c3[C@H]2Cc2ccc(Cl)cc2-4)CC1,6.8,p8
+,4,p8_sel1_seed4_225_19_model_0_prep_split_ligand2,0,8.6 ± 0.07,,CCn1cc(Nc2cc(Br)cc(N3CCN(c4nccc(N)n4)CC3)n2)cn1,8.6,p8
+,5,p7_sel3_seed1_272_8_model_0_prep_split_ligand2,0,8.6 ± 0.06,,Clc1ccc2c(c1)-c1cccc3c1[C@@H](C2)N(C1CCN(Cc2nccnn2)CC1)CC3,8.6,p7
+,6,p7_sel4_seed3_272_4_model_0_prep_split_ligand2,0,,,CN(C)c1ccc([N@H+]2CC[N@H+](c3cc(Cl)c(C#N)cc3OCC3CC3)CC2)c[nH+]1,0.0,p7
+,7,p7_sel2_seed2_258_27_model_0_prep_split_ligand2,0,5.6 ± 0.08,,OC1CCN(Cc2cccc(CN3CCN(c4nccc(Cl)c4Cl)CC3)n2)CC1,5.6,p7
+,8,p7_sel1_seed0_272_25_model_0_prep_split_ligand2,0,,,CN1CCN(Cc2ccccc2N2CCN(c3c(Cl)c(Cl)cc4c3C(=O)NCCC4)CC2)CC1,0.0,p7
+,9,p6_sel4_seed1_209_6_model_0_prep_split_ligand2,0,5.4 ± 0.08,,Clc1ccc2c(c1)-c1cccc3c1[C@@H](C2)N(C1CCN(CC2=[NH+]CCCN2)CC1)CC3,5.4,p6
+,10,p6_sel3_seed0_157_28_model_0_prep_split_ligand2,0,6.7 ± 0.08,,O=c1[nH]cc(CN2CCN(c3nccc(Cl)c3Cl)CC2)c2ccccc12,6.7,p6
+,11,p6_sel2_seed3_182_13_model_0_prep_split_ligand2,0,7.2 ± 0.07,,COc1cc(C#N)cnc1N1CCN(c2ccc(C#N)cc2NC2CCC2)CC1,7.2,p6
+,12,p6_sel1_seed3_186_24_model_0_prep_split_ligand2,0,6.2 ± 0.05,,CN1CCN(c2nc(Nc3ccc(O)cc3)cc(C(F)(F)F)n2)CC1,6.2,p6
+,13,p6_sel0_seed0_199_7_model_0_prep_split_ligand2,0,5.7 ± 0.09,,CN1CCc2cc(CN3CCN(c4cccc(Cl)c4Cl)CC3)[nH]c(=O)c2C1,5.7,p6
+,14,p5_sel4_seed0_110_16_model_0_prep_split_ligand2,0,4.9 ± 0.07,,CN1CCC(Nc2nc(N3CCOCC3)nc3ccc(Cl)cc23)CC1,4.9,p5
+,15,p5_sel3_seed4_179_20_model_0_prep_split_ligand2,0,5.0 ± 0.07,,COc1ccc(C)cc1CN1CCN(c2cc(Cl)ccc2OC)CC1,5.0,p5
+,16,p5_sel2_seed3_149_19_model_0_prep_split_ligand2,0,,,Cc1cc(C#N)ccc1N1CCN(c2ccc(C#N)cc2NC2CC2)CC1,0.0,p5
+,17,p5_sel1_seed3_182_21_model_0_prep_split_ligand2,0,4.7 ± 0.06,,COc1ccc(Cl)cc1Nc1nc(N2CCN(C)CC2)c(C#N)cc1C,4.7,p5
+,18,p5_sel0_seed3_208_21_model_0_prep_split_ligand2,0,6.3 ± 0.06,,Cc1ccc(Nc2cc(C(F)(F)F)nc(N3CCN(C)CC3)n2)cc1C,6.3,p5
+,19,p7_sel0_seed4_189_22_model_0_prep_split_ligand2,0,-2.4 ± 0.12,,CC[NH+]1CCN(c2cc(Br)c/c(=[NH+]/[C@H]3CC[C@H]([N@H+]4CC[N@H+](C)CC4)CC3)[nH]2)CC1,-2.4,p7

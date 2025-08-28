@@ -1,0 +1,87 @@
+{
+  "task": "JNK3_ATP",
+  "output_dir": "./",
+  "load_from_previous": false,
+  "logging": false,
+  "monitor_app": false,
+  "termination_exit": false,
+  "scoring_functions": [
+    {
+      "name": "Boltz",
+      "run": true,
+      "parameters": {
+        "input_path": "/shared/morgan/case_studies/JNK3_boltz/affinity.yaml",
+        "prefix": "Boltz",
+        "env_engine": "mamba",
+        "cache": "~/.boltz",
+        "devices": [
+          "1",
+          "2",
+          "3"
+        ],
+        "accelerator": "gpu",
+        "recycling_steps": 3,
+        "sampling_steps": 200,
+        "diffusion_samples": 1,
+        "step_scale": 1.638,
+        "output_format": "mmcif",
+        "num_workers": 2,
+        "override": false,
+        "use_msa_server": true,
+        "msa_server_url": "https://api.colabfold.com",
+        "msa_pairing_strategy": "greedy",
+        "write_full_pae": false,
+        "write_full_pde": false
+      }
+    },
+    {
+      "name": "MolecularDescriptors",
+      "run": true,
+      "parameters": {
+        "prefix": "desc",
+        "n_jobs": 1
+      }
+    }
+  ],
+  "scoring": {
+    "metrics": [
+      {
+        "name": "Boltz_affinity_pred_value",
+        "filter": false,
+        "weight": 1.0,
+        "modifier": "norm",
+        "parameters": {
+          "objective": "minimize"
+        }
+      },
+      {
+        "name": "Boltz_affinity_probability_binary",
+        "filter": false,
+        "weight": 1.0,
+        "modifier": "raw",
+        "parameters": {}
+      },
+      {
+        "name": "desc_QED",
+        "filter": false,
+        "weight": 1.0,
+        "modifier": "raw",
+        "parameters": {}
+      }
+    ],
+    "method": "amean"
+  },
+  "diversity_filter": {
+    "run": true,
+    "name": "ScaffoldSimilarityECFP",
+    "parameters": {
+      "nbmax": 50,
+      "minscore": 0.5,
+      "minsimilarity": 0.8,
+      "radius": 2,
+      "useFeatures": false,
+      "bits": 1024,
+      "outputmode": "linear"
+    }
+  }
+}
